@@ -25,12 +25,10 @@ const App = () => {
 
   return (
     <>
-      <div className='d-flex flex-column h-100'>
-        <Button />
-        <Navbar inputHandler={inputHandler} />
-        <CardSection data={data} newCard={newCard} />
-        <Footer />
-      </div>
+      <Button />
+      <Navbar inputHandler={inputHandler} />
+      <CardSection data={data} newCard={newCard} />
+      <Footer />
     </>
   );
 };

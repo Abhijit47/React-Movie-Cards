@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = (props) => {
 
   return (
-    <header className='position-sticky top-0 z-1'>
+    <header className='position-sticky top-0 z-3'>
       {/* <!-- Fixed navbar --> */}
       <nav className="navbar navbar-expand-md navbar-dark bg-dark shadow ">
         <div className="container-fluid">
